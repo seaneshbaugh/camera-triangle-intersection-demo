@@ -4,7 +4,9 @@ CXXFLAGS=-std=c++11 -stdlib=libc++ -Weverything -Wno-padded -g
 TARGET_NAME=c-int
 
 SOURCE_FILES=\
+	src/line_segment.cpp \
 	src/main.cpp \
+	src/triangle.cpp \
 	src/util.cpp
 
 all: clean default

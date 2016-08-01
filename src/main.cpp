@@ -2,12 +2,18 @@
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
+#include "line_segment.hpp"
+#include "triangle.hpp"
 #include "util.hpp"
 
 int main(int argc, char** argv) {
-  glm::vec3 v = glm::vec3(1.0f, 2.0f, 3.0f);
+  Triangle t;
 
-  std::cout << util::Vec3ToString(v) << std::endl;
+  std::cout << t.ToString() << std::endl;
+
+  LineSegment l;
+
+  std::cout << l.ToString() << std::endl;
 
   return 0;
 }
