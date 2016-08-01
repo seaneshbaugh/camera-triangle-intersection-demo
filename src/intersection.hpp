@@ -18,7 +18,7 @@ namespace intersection {
     SAME_PLANE
   };
 
-  IntersectionResult FindIntersection(LineSegment r, Triangle t, glm::vec3* result);
+  IntersectionResult FindIntersection(const LineSegment r, const Triangle t, glm::vec3* result);
 }
 
 #endif

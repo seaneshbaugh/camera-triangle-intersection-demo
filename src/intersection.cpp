@@ -6,7 +6,7 @@
 // SoftSurfer makes no warranty for this code, and cannot be held
 // liable for any real or imagined damage resulting from its use.
 // Users of this code must verify correctness for their application.
-intersection::IntersectionResult intersection::FindIntersection(LineSegment ray, Triangle triangle, glm::vec3* result) {
+intersection::IntersectionResult intersection::FindIntersection(const LineSegment ray, const Triangle triangle, glm::vec3* result) {
   const glm::vec3 u = triangle.v1 - triangle.v0;
 
   const glm::vec3 v = triangle.v2 - triangle.v0;
