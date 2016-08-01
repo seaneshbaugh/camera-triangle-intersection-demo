@@ -4,6 +4,7 @@ CXXFLAGS=-std=c++11 -stdlib=libc++ -Weverything -Wno-padded -g
 TARGET_NAME=c-int
 
 SOURCE_FILES=\
+	src/camera.cpp \
 	src/line_segment.cpp \
 	src/main.cpp \
 	src/triangle.cpp \

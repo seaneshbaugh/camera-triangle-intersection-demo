@@ -4,7 +4,9 @@
 #include <iomanip>
 #include <sstream>
 #include <string>
+
 #include <glm/glm.hpp>
+
 #include "util.hpp"
 
 struct LineSegment {
