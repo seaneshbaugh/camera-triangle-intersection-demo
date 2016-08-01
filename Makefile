@@ -4,7 +4,8 @@ CXXFLAGS=-std=c++11 -stdlib=libc++ -Weverything -Wno-padded -g
 TARGET_NAME=c-int
 
 SOURCE_FILES=\
-	src/main.cpp
+	src/main.cpp \
+	src/util.cpp
 
 all: clean default
 
