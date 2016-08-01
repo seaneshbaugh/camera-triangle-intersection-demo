@@ -1,10 +1,11 @@
 CXX=clang++
-CXXFLAGS=-std=c++11 -stdlib=libc++ -Weverything -Wno-padded -g
+CXXFLAGS=-std=c++11 -stdlib=libc++ -Weverything -Wno-padded -Wno-c++98-compat -g
 
 TARGET_NAME=c-int
 
 SOURCE_FILES=\
 	src/camera.cpp \
+	src/intersection.cpp \
 	src/line_segment.cpp \
 	src/main.cpp \
 	src/triangle.cpp \
